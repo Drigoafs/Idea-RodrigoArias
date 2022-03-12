@@ -39,5 +39,18 @@
 
 .logo {
   width: 3rem;
-  display: flex;
+  display: inline;
+}
+
+.titulo {
+  font-size: large;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+.slogan {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
 }
