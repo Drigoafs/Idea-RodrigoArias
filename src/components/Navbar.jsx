@@ -1,12 +1,18 @@
+import { FiShoppingCart } from "react-icons/fi";
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <div className="col-1">
-          <a className="navbar-brand" href="#"><img className="logo" src="/logo.png" alt="logo" /></a>
+          <a className="navbar-brand" href="#">
+            <img className="logo" src="/logo.png" alt="logo" />
+          </a>
         </div>
-        <div className="col-7 title">
-          <p className="titulo"><b>Candela</b></p>
+        <div className="col-5 title">
+          <p className="titulo">
+            <b>Candela</b>
+          </p>
           <p className="slogan">Vinoteca OnLine</p>
         </div>
 
@@ -72,7 +78,13 @@ const Navbar = () => {
               Search
             </button>
           </form>
+          <div className="col-2">
+          <button className="btn btn-outline-success">
+            <FiShoppingCart /> 0
+          </button>
         </div>
+        </div>
+
       </div>
     </nav>
   );
